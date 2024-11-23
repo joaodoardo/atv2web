@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+<body class="body2">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact">      
+        <h1>Fale Conosco</h1>
+        <form action="#" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <label for="assunto">Assunto:</label>
+            <select id="assunto" name="assunto">
+                <option value="sugestao">Sugestão</option>
+                <option value="duvida">Dúvida</option>
+                <option value="elogio">Elogio</option>
+                <option value="critica">Crítica</option>
+            </select>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Hambúrguer Simples. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
